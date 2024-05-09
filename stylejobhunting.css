@@ -1,0 +1,118 @@
+body{
+    /*
+    background: linear-gradient(skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    */
+    background-image: url(images就職活動/東京タワー空から.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.forumrooms {
+    display: none;
+    border: 2px solid dodgerblue;
+}
+a:link{
+    color: #0349fc;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    color: rgb(223, 252, 3);
+}
+h1{background-color: rgb(11, 252, 3); color: purple; font-size: 36px; border: 5px dotted; border-radius: 15px;
+
+}
+h2{
+    background: linear-gradient(to right, skyblue, lightgreen); color: #a832a0; font-size: 30px; 
+}
+h3{
+    background-color: rebeccapurple; color:blanchedalmond; font-size: 26px; text-decoration: underline;
+}
+h4{
+    background-color: #ebc334; color: dodgerblue; font-size: 22px; border: 5px brown dashed; border-style: outset; 
+}
+li{
+    background-color: aqua; color:red; font-size: 18px; font-family: "consolas", sans-serif; padding: 3px;
+}
+dl{
+    background-color: #fc03fc; 
+}
+dt{
+    color:darkmagenta;
+}
+dd{
+    color:rgb(3, 252, 86);
+}
+/*
+img{
+    float: left;
+}
+
+#スーツ{
+    background-color: aqua; color:red; font-size: 18px; font-family: "consolas", sans-serif; 
+}
+*/
+.posture{
+    color: tomato; font-style: italic; font-size: 20px;
+}
+.名刺{
+    color: rgb(51, 204, 102); font-style: unset; font-size: 20px;
+}
+.enlargeSize{
+    width: 500px;
+    height: 400px;
+}
+.slightlyEnlarge{
+    width: 350px;
+    height: 250px;
+}
+.slightlyWide{
+    width: 300px;
+    height: 450px;
+}
+#box1{
+    border: 5px dotted;
+    width: 150px;
+    height: 100px; 
+    font-size: 20px;
+    text-align: center;
+    background: greenyellow;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    animation: 4s linear 0s infinite running myRotate;
+}
+/*
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 50%;}
+}
+*/
+@keyframes myRotate{
+    100%{transform: rotateZ(360deg)}
+}
+#box2{
+    border: 5px solid;
+    width: 150px;
+    height: 200px; 
+    font-size: 22px;
+    background: violet;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: 3s ease-in 1s infinite running myOpacity;
+}
+@keyframes myOpacity{
+    50%{opacity: 0;}
+}
+/*
+@keyframes myScale{
+    50%{transform: scale(0.5, 0.5);}
+}
+*/
