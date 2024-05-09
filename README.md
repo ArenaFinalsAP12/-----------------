@@ -1,0 +1,1 @@
+This is a sample website that I created with information about Japan's job-hunting process including links to videos with advice for interviews and how to naviagate career forums and other job-hunting events.
