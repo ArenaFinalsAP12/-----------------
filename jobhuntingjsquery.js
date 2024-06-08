@@ -35,7 +35,7 @@ $(function() {
         });
     });
 });
-
+/*
 $(function() {
     $(".posture").on("mouseleave", function() {
         $(this).css({
@@ -45,7 +45,7 @@ $(function() {
         });
     });
 });
-
+*/
 $(function() {
     $("img.suitimage, img#履歴書見本").on("mouseenter", function() {
         $(this).addClass("enlargeSize");
@@ -71,13 +71,13 @@ $(function() {
 });
 
 $(function() {
-    $("img#slenderPic").on("mouseenter", function() {
+    $("img.MaleFemaleTogether").on("mouseenter", function() {
         $(this).addClass("slightlyWide");
     });
 });
 
 $(function() {
-    $("img#slenderPic").on("mouseleave", function() {
+    $("img.MaleFemaleTogether").on("mouseleave", function() {
         $(this).removeClass("slightlyWide");
     });
 });
